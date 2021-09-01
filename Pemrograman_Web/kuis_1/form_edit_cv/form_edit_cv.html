@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Edit Data Diri</title>
+</head>
+<body bgcolor="lightblue">
+<a href="../data_diri/curiculum_vitae.html"><strong>Klik Disini untuk melihat Data Diri</strong></a>
+<form action="action.html" method="post">
+<table border="1" cellspacing="0" cellpadding="1" align="center">
+	<h1 align="center">CURRICULUM VITAE</h1>
+	<tr>
+		<td colspan="2" align="center"><h3>DATA DIRI <hr></h3></td>
+	</tr>
+	<tr>
+		<th align="left">Nama</th>
+		<td><input type="text" name="nama" autocomplete="off" autofocus required></td>
+	</tr>
+	<tr>
+		<th align="left">Tempat, Tanggal Lahir</th>
+		<td><input type="text" name="tempat_tggl_lahir"></td>
+	</tr>
+	<tr>
+		<th align="left">Jenis Kelamin</th>
+		<td>
+			<input type="radio" name="jenis_kelamin" value="Laki-laki">
+			Laki-laki
+			<input type="radio" name="jenis_kelamin" value="Perempuan">
+			Perempuan
+		</td>
+	</tr>
+	<tr>
+		<th align="left">Agama</th>
+		<td>
+			<input type="radio" name="Agama" value="islam">
+			Islam
+			<input type="radio" name="Agama" value="protestan">
+			Protestan
+			<input type="radio" name="Agama" value="khatolik">
+			Khatolik
+			<input type="radio" name="Agama" value="budha">
+			Budha
+			<input type="radio" name="Agama" value="hindu">
+			Hindu
+		</td>
+	</tr>
+	<tr>
+		<th align="left">Alamat</th>
+		<td><textarea name="alamat" cols="30" rows="4"></textarea></td>
+	</tr>
+
+	<tr>
+		<th align="left">Nomor HP</th>
+		<td><input type="text" name="no_hp" onkeypress="return event.charCode >= 48 && event.charCode <=57" ></td>
+	</tr>
+
+	<tr>
+		<th align="left">Status</th>
+		<td>
+			<input type="radio" name="status" value="menikah">
+			Menikah
+			<input type="radio" name="status" value="belum">
+			Belum Menikah
+		</td>
+	</tr>
+	<tr>
+		<th align="left">Email</th>
+		<td><input type="text" name="email"></td>
+	</tr>
+
+	<tr>
+		<td colspan="2" align="center"><h3>DATA PENDIDIKAN <hr></h3></td>
+	</tr>
+	<tr>
+		<th align="left">Sekolah Dasar</th>
+		<td><input type="text" name="sekolah_dasar" autocomplete="off" autofocus required></td>
+	</tr>
+	<tr>
+		<th align="left">SMP</th>
+		<td><input type="text" name="smp" autocomplete="off" autofocus required></td>
+	</tr>
+	<tr>
+		<th align="left">SMK</th>
+		<td><input type="text" name="smk" autocomplete="off" autofocus required></td>
+	</tr>
+	<tr>
+		<th align="left">Perguruan Tinggi</th>
+		<td><input type="text" name="perguruan_tinggi" autocomplete="off" autofocus required></td>
+	</tr>
+	<tr>
+	<td colspan="2" align="center"><h3>KEMAMPUAN <hr></h3></td>
+	</tr>
+	<tr>
+		<th align="left">Informasi Teknologi</th>
+		<td><textarea name="teknologi" cols="30" rows="4"></textarea></td>
+	</tr>
+	<tr>
+		<th align="left">Bahasa</th>
+		<td><textarea name="bahasa" cols="30" rows="4"></textarea></td>
+	</tr>
+	<tr>
+		<td align="center"><button type="submit">Kirim!!!</button></td>
+		<td align="center"><button type="reset">Reset</button></td>
+	</tr>
+
+
+
+
+
+
+
+</table>
+</form>
+
+</body>
+</html>

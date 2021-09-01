@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Mahasiswa</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<h1 align="center" >DATA MAHASISWA</h1>
+<hr align="center">
+<form>
+<table border="1" cellspacing="0" cellpadding="5" align="center" >
+	<tr>
+		<th>Nama Mahasiswa</th>
+		<td><input type="text" name="nama_mahasiswa" autocomplete="off" autofocus required  ></td>
+	</tr>
+
+	<tr>
+		<th>NIM</th>
+		<td><input type="text" name="nim" onkeypress="return event.charCode >= 48 && event.charCode <=57" ></td>
+	</tr>
+
+	<tr>
+		<th>Nomor HP</th>
+		<td><input type="text" name="no_hp" onkeypress="return event.charCode >= 48 && event.charCode <=57" ></td>
+	</tr>
+
+	<tr>
+		<th>Email Mahasiswa</th>
+		<td><input type="text" name="email_mahasiswa"></td>
+	</tr>
+
+	<tr>
+		<th>Jenis Kelamin</th>
+		<td>
+			<input type="radio" name="jenis_kelamin" value="Laki-laki" checked>
+			Laki-laki
+			<input type="radio" name="jenis_kelamin" value="Perempuan">
+			Perempuan
+		</td>
+	</tr>
+
+	<tr>
+		<th>Alamat</th>
+		<td><textarea name="alamat" cols="30" rows="10"></textarea></td>
+	</tr>
+
+	<tr>
+		<td align="center"><button type="submit">Kirim!!!</button></td>
+		<td align="center"><button type="reset">Reset</button></td>
+	</tr>
+
+</table>
+</form>
+
+</body>
+</html>

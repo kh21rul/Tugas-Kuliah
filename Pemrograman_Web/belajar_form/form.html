@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Contoh form</title>
+</head>
+<body>
+
+<form action="action.html" method="post">
+	<!-- nama lengkap
+	<input type="text" name="nama_lengkap">
+	tempat lahir
+	<input type="text" name="tem_lahir">
+	tanggal lahir
+	<input type="text" name="tanggal_lahir"> -->
+
+
+<table border="1" cellspacing="0" cellpadding="5">
+	<tr>
+		<th>Nama Lengkap</th>
+		<td><input type="text" name="nama_lengkap" autocomplete="off" autofocus required></td>
+	</tr>
+	<tr>
+		<th>Tempat Lahir</th>
+		<td><input type="text" name="tempat_lahir"></td>
+	</tr>
+	<tr>
+		<th>Tanggal Lahir</th>
+		<td><input type="text" name="tanggal_lahir"></td>
+	</tr>
+
+	<tr>
+		<th>Jenis Kelamin</th>
+		<td>
+			<input type="radio" name="jenis_kelamin" value="Laki-laki" checked>
+			Laki-laki
+			<input type="radio" name="jenis_kelamin" value="Perempuan">
+			Perempuan
+		</td>
+	</tr>
+
+	<tr>
+		<th>Game Favorit</th>
+		<td>
+			<input type="checkbox" name="game" value="PUBG">
+			PUBG
+			<input type="checkbox" name="game" value="mobile_legend">
+			Mobile Legend
+			<input type="checkbox" name="game" value="geshin_impact">
+			Geshin Impact
+		</td>
+	</tr>
+
+	<tr>
+		<th>Email</th>
+		<td><input type="text" name="email"></td>
+	</tr>
+	<tr>
+		<th>Password</th>
+		<td><input type="Password" name="Password"></td>
+	</tr>
+
+	<tr>
+		<th>Program Studi</th>
+		<td>
+			<select name="prodi">
+				<option value="informatika">T. Informatika</option>
+				<option value="sipil">T. Sipil</option>
+				<option value="mesin">T. Mesin</option>
+				<option value="elektro">T. Elektro</option>
+				<option value="kimia">T. Kimia</option>
+				<option value="industri">T. industri</option>
+				<option value="arsiteksur">Arsitektur</option>
+				<option value="material">T. Material</option>
+				<option value="informasi">Sistem Informasi</option>
+			</select>
+		</td>
+	</tr>
+
+	<tr>
+		<th>Alamat</th>
+		<td><textarea name="alamat" cols="30" rows="10"></textarea></td>
+	</tr>
+
+	<tr>
+		<td align="center"><button type="submit">Kirim!!!</button></td>
+		<td align="center"><button type="reset">Reset</button></td>
+	</tr>
+
+
+
+</table>
+</form>
+
+</body>
+</html>
