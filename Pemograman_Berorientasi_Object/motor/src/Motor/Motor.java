@@ -1,4 +1,4 @@
-package SepedaMotor;
+package Motor;
 
 public class Motor {
     int gigi;

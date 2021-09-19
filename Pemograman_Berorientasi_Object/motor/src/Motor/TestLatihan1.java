@@ -1,4 +1,4 @@
-package SepedaMotor;
+package Motor;
 
 public class TestLatihan1 {
     public static void main(String[] args) {

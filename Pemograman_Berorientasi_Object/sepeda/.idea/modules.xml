@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/sepeda-motor.iml" filepath="$PROJECT_DIR$/sepeda-motor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/sepeda.iml" filepath="$PROJECT_DIR$/sepeda.iml" />
     </modules>
   </component>
 </project>
