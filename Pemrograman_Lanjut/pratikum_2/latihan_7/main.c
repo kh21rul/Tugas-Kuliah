@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+main()
 {
-    printf("Hello world!\n");
-    return 0;
+    char a[4] = "BSI";
+    puts("Saya Kuliah di. ");
+    puts(a);
 }
