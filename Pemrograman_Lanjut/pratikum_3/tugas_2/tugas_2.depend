@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1633763199 source:c:\dev\tugas mata kuliah\pemrograman_lanjut\pratikum_3\tugas_2\main.c
+	<stdio.h>
+	<stdlib.h>
+
