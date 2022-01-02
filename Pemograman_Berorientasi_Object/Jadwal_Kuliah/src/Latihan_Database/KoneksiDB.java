@@ -33,8 +33,7 @@ public class KoneksiDB {
  koneksi = DriverManager.getConnection(url, user, password);
  System.out.println("Koneksi Sukses");
  } catch (SQLException se) {
- JOptionPane.showMessageDialog(null, 
-"Koneksi Gagal! " + se);
+ JOptionPane.showMessageDialog(null, "Koneksi Gagal! " + se);
  System.exit(0);
  }
  } catch (ClassNotFoundException cnfe) {
